@@ -1,0 +1,147 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+}
+.logo {
+	margin: 0;
+	margin-left: 0;
+	width: 300px;
+}
+ul {
+	text-align: center;
+	display: inline-block;
+	list-style-type: none;
+	left: 5%;
+	width: 600px;
+	height: 80px;
+	padding-top: 30px;
+}
+li {
+	display: inline;
+	width: 25%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+div {
+}
+h1 {
+	padding-top: 80px;
+}
+.listenav {
+	position: absolute;
+	left: 300px;
+}
+.slogan {
+	width: 100%;
+}
+.nyheder {
+	width: 100%;
+	padding-top: 30px;
+}
+.footer {
+	width: 100%;
+	height: 200px;
+}
+.hotbotdiv {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+.hotbottekst {
+	text-align: left;
+}
+.footertekst {
+	text-align: center;
+	padding-top: 50px;
+}
+.erhverv {
+	width: 250px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 20px;
+	padding-top: 25px;
+	display: inline-block;
+}
+.privat {
+	width: 250px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 20px;
+	padding-top: 25px;
+	display: inline-block;
+}
+.erhvervdiv {
+	width: 400px;
+	float: left;
+	margin-bottom: 50px;
+}
+.privatdiv {
+	width: 400px;
+	float: right;
+	margin-bottom: 50px;
+}
+.ikoner {
+}
+.logoer img {
+	width: 300px;
+	height: 300px;
+	outline: 1px solid #ddd;
+	margin: 20px;
+}
+.hotbottekst {
+	padding: 10px;
+}
+.hotbotlogo {
+	margin-bottom: 20px;
+}
+.hotbotoverskrift {
+	margin: 10px;
+}
+.ds {
+	margin: 20px;
+	margin-bottom: 20px;
+}
+.erhvervdiv p {
+	width: 250px;
+	padding-bottom: 100px;
+	margin-top: 5px;
+	padding-top: 25px;
+	display: inline-block;
+	text-align: left;
+}
+.privatdiv p {
+	width: 250px;
+	padding-bottom: 100px;
+	margin-top: 5px;
+	padding-top: 25px;
+	display: inline-block;
+	text-align: left;
+}
+.digitalsikkerhed {
+}
+.asgersdiv {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.asgersdiv2 {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nikolinesdiv {
+	width: 400px;
+	float: left;
+	margin-left: 200px;
+}
+.nikolinesdiv2 {
+	width: 400px;
+	float: right;
+	margin-right: 200px;
+}
+
+

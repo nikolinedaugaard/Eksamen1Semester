@@ -1,0 +1,243 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+/* CSS Document */
+
+/* Browser/CSS reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Her starter mit eget stylesheet */
+body {
+	font-family: sans-serif;
+}
+
+div {
+}
+ul {
+	padding-top: 10px;
+	height: 250px;
+	width: 333px;
+	display: block;
+	margin: 0 auto;
+	
+
+}
+li {
+	height: 50px;
+	text-decoration: none;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.slogan {
+	width: 100%;
+	height: 200px;
+	background: black;
+	margin-bottom: 20px;
+}
+
+.slogantekst {
+	font-family: 'Chewy', cursive;
+	font-size: 60px;
+}
+
+h1, h2, li{
+	text-align: center;
+}
+
+h1 {
+	padding: 30px;
+	color: white;
+	font-size: 40px;
+	padding-top: 50px;
+}
+h2 {
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.nyheder {
+	height: 400px;
+	padding-top: 20px;
+}
+footer {
+	margin-top: 50px;
+	height: 30px;
+}
+.hotbot {
+	width: 100%;
+}
+.hotbotoverskrift {
+	padding-top: 10px;
+}
+.hotbotlogo {
+	display: block;
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+}
+.logo {
+	width: 400px;
+}
+
+.hotbottekst {
+	padding-top: 20px;
+	line-height: 150%;
+}
+.erhverv {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 25px;
+}
+.privat {
+	padding-top: 30px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 25px;
+}
+.logoer .webskabeloner {
+	 margin: 15px 15px ;
+}
+
+.logoer img {
+ 	height: auto;
+	width: 90%;
+	padding: 18px;
+	transition: 1s;
+}
+
+
+.logoer img:hover { 
+	filter: grayscale(0%);
+	transform: scale(1.08);
+	}
+
+.webskabeloner img {
+ 	height: auto;
+	width: 90%;
+	padding: 18px;
+	transition: 1s;
+}
+.facebook {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.insta  {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.linkedin  {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.footerul {
+	height: 200px;
+	width: 100%;
+}
+.footerlogo {
+	height: 200px;
+	width: 100%;
+	
+}
+.webh2 {
+	padding-top: 30px;
+	
+}
+.logoer {
+	margin-top: 75px;
+}
+.hotbotdiv {
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.footerikkeport {
+	width: 100%;
+	height: 100px;
+}
+.ds {
+	margin: 20px;
+	margin-bottom: 150px;
+}
+.erhvervdiv p{
+	margin: 20px;
+}
+.privatdiv p{
+	margin: 20px;
+}
+.overskrift {
+	margin-top: 30px;
+}
+.overskrift2 {
+	margin-top: 30px;
+}
+.broedtekst {
+	line-height: 150%;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: left;
+}
+.branding {
+	magin-left: auto;
+	margin-right: auto;
+}
+.listenav a{
+	text-decoration: none;
+	color: black;
+}
+.listenav a:hover{
+	color: #df9b67;
+}
+.morten {
+	margin-left: 30px;
+	font-style: italic;
+	color: #df9b67;
+}

@@ -1,0 +1,587 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Kodchasan');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+/* CSS Document */
+
+/* Browser/CSS reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+	background-color: #E6E6E6;
+}
+
+
+
+
+/* Her starter mit eget stylesheet */
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-color: #EEEEEE;
+}
+
+
+
+/*MENU LINJE STYLING*/
+.listenav a{
+	text-decoration: none;
+	color: black;
+	float: right;
+}
+.listenav a :hover{
+	color: #df9b67;
+}
+
+.kontakt a {
+	color: palevioletred;
+}
+
+
+
+/*GENERELT UL STYLING. FOOTER SAMT NAV BAR*/
+ul {
+	text-align: center;
+	font-family: 'Kodchasan', sans-serif;
+	display: inline-block;
+	list-style-type: none;
+	width: 100%;
+	height: 2px;
+	margin-top: 30px;
+}
+li {
+	display: inline;
+	padding-right: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	position: relative;
+}
+
+
+
+/* LOGO/TILBAGEKNAP STYLING */
+.logo {
+	float: left;
+	margin-top: auto;
+	}
+
+.logo img{
+	position: fixed;
+	width: 40px;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+/*TOP OVERSKRIFTER*/
+
+.topskrifter {
+	margin-top: 140px;
+	font-family:'Julius Sans One', sans-serif;
+	text-align: center;
+	font-size: 40px;
+	margin-left: 5%
+}
+
+/*CONTAINERERE*/
+
+
+
+/*CONTAINERERE TIL FORSIDE*/
+
+.daugaarddesigncontainer {
+	width: 100%;
+	height: auto;
+	margin-top: 180px;
+}
+
+.ommigcontainer {
+	width: 70%;
+	height: auto;
+	background-size: auto;	
+	margin-top: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 18%;
+}
+
+.fardighedercontainer {
+	width: 70%;
+	height: auto;
+	background-size: auto;	
+	margin-top: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 18%;
+}
+
+.inspirationcontainer {
+	width: 70%;
+	height: auto;
+	background-size: auto;	
+	margin-top: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 18%;
+}
+
+.portratcontainer {
+	width: 70%;
+	height: auto;
+	background-size: auto;	
+	margin-top: 40px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	margin-left: 18%;
+}
+
+/*COINTAINERE PORTFOLIO*/
+
+.burgercontainer {
+	width: 70%;
+	height: auto;
+	background-size: auto;	
+	margin-top: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 15%;
+}
+
+.vejretcontainer {
+	width: 70%;
+	height: auto;
+	background-size: auto;	
+	margin-top: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 15%;
+}
+
+.logoercontainer {
+	width: 70%;
+	height: auto;
+	background-size: auto;	
+	margin-top: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 15%;
+}
+
+.catcontainer {
+	width: 70%;
+	height: auto;
+	background-size: auto;	
+	margin-top: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 15%;
+}
+
+.gallerivejret {
+	width: 80%;
+	margin-left: 10%;
+}
+
+/*CONTAINERERE TIL OPGAVER*/
+
+.intro {
+	width: 100%;
+	height: auto;
+	margin-top: 150px;
+	background-color:#E6905B;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.redesigns {
+	width: 70%;
+	height: auto;
+	background-size: auto;	
+	margin-top: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 20%;
+}
+
+
+
+/*BILLEDER I CONTAINERE*/
+.portrat img {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: auto;
+	margin-top: 2%
+}
+
+.logoicontainer {
+	width: 100%;
+}
+
+.logoicontainer img{
+	width: 60%;
+	margin-left: 18%;
+	margin-right: auto;
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+
+.fardigheder img {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: auto;
+	margin-top: 10%;
+	margin-bottom: 40%;
+}
+
+
+.gallerivejret img {
+	width: 252px;
+	height: auto;
+	padding: 15px;
+	margin-left: 2%;
+	margin-right: auto;
+}
+
+.galleriburger img{
+	width: 252px;
+	height: auto;
+	padding: 15px;
+	margin-left: 6%;
+	margin-right: auto;
+}
+
+.gallerilogoer img {
+	width: 272px;
+	height: auto;
+	padding: 15px;
+	margin-left: 4%;
+	margin-right: auto;
+}
+
+.gallericat img{
+	width: 282px;
+	height: auto;
+	padding: 15px;
+	margin-left: 3%;
+	margin-right: auto;
+}
+
+
+
+
+/*OVERSKRIFTER I CONTAINERE*/
+
+/*OVERSKRIFTER FORSIDE*/
+.overskrifter, .overskrifter1, .overskrifter2, .overskrifter4{
+	margin-top: 20px;
+	font-family:'Julius Sans One', sans-serif;
+	text-align: center;
+	font-size: 25px;
+}
+
+.overskrifter3 {
+	margin-top: 20px;
+	font-family:'Julius Sans One', sans-serif;
+	text-align: center;
+	font-size: 30px;	
+}
+
+/*OVERSKRIFTER PORTFOLIO*/
+
+.overskriftvejret, .overskriftburger, .overskriftlogoer, .overskriftcat {
+	margin-top: 20px;
+	font-family:'Julius Sans One', sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+/*OVERSKRIFTER OPGAVER*/
+
+.overskriftintro {
+margin-top: 20px;
+	font-family:'Julius Sans One', sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+.overskriftgantt {
+	margin-top: 20px;
+	font-family:'Julius Sans One', sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+.redesignoverskrift {
+	margin-top: 20px;
+	font-family:'Julius Sans One', sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+.dromdinportfoliooverskrift, .bygdinportfolio, .bygenappoverskrift, .sweetbotoverskrift {
+	margin-top: 80px;
+	font-family:'Julius Sans One', sans-serif;
+	text-align: center;
+	font-size: 22px;
+}
+
+
+
+/*BRØDTEKST I CONTAINERE*/
+
+
+/* BRØDTEKST FORSIDE*/
+.slogantekst {
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.slogantekst1, .slogantekst2, .slogantekst3 {
+	text-align: left;
+	font-size: 17px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.overblikslogan {
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+/*BRØDTEKST PORTFOLIO*/
+
+.vejrettekst, .burgertekst, .logoertekst, .cattekst {
+	text-align:justify;
+	font-size: 17px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*BRØDTEKST OPGAVER*/
+
+.introtekst {
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.introtekst1 {
+	text-align: center;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+.dromdinportfoliotekst, .bygenapptekst, .bygdinportfoliotekst, .sweetbottekst{
+	text-align:justify;
+	font-size: 17px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+
+
+
+/*CITATER*/
+.citat {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	color: orange;
+	font-size: 17px;
+	margin-top: 3px;
+	margin-bottom: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.citattopskrift {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	color: orange;
+	font-size: 25px;
+	margin-top: 3px;
+	margin-bottom: 20px;
+	margin-left: 5%;
+}
+
+
+
+
+
+/*Knapper*/
+.seprojektknap {
+	height: 30px;
+	width: auto;
+	margin-left: 38%;
+	margin-bottom: 5%;
+	padding: 2px 5px;
+	outline: 0.5px dashed grey;
+	text-decoration: none;
+	text-decoration-color: black;
+	color:#E6B672;
+}
+
+.rapportknap {
+	height: 30px;
+	width: auto;
+	margin-left: 45%;
+	margin-bottom: 5%;
+	padding: 2px 5px;
+	outline: 0.5px dashed grey;
+	text-decoration: none;
+	text-decoration-color: black;
+	color:#E6B672;
+}
+
+
+
+
+/*FOOTER LOGOER STYLING*/
+.facebook {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.insta  {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.linkedin  {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.footerul {
+	height: 50px;
+	width: 100%;
+}
+.footerlogo img{
+	height: 50px;
+	width: auto;
+}
+
+
+
+
+/*KONTAKT BOKS*/
+
+.contact-form {
+	margin-top: 150px;
+}
+
+.contact-title {
+	margin-top: 100px;
+	color:#C97C38;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+	text-align: center;
+}
+
+.contact-title h1{
+	font-family: 'Poiret One', cursive;
+	font-size: 60px;
+	line-height: 10px;
+	text-align: center;
+}
+
+.contact-title h2 {
+	font-family: 'Raleway Dots', cursive;
+	font-size: 20px;
+	text-align: center;
+}
+
+form {
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+	text-align: center;
+}
+
+.form-control {
+	width: 300px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid white;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 16px;	
+}
+
+input {
+	height: 40px;
+}
+
+form .submit {
+	background: #A5A5A5;
+	border-color: transparent;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	width: 250px;
+	height: 50px;
+	margin-top: 20px;	
+}
+
+form .submit:hover {
+	background-color: grey;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+
+
+
+/*footer*/
+footer {
+	margin-top: 50px;
+	height: 30px;
+	width: auto;
+}
